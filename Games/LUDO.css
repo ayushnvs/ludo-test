@@ -1,0 +1,164 @@
+body {
+    margin: 5px;
+}
+
+.board {
+    border: 10px solid black;
+    padding:7px;
+    height: 782px;
+    border-radius: 15px;
+    margin: 0px 263px 0px 263px;
+    background-color: black;
+}
+
+.home {
+
+    height: 314px;
+    width: 312px;
+    float: left;
+}
+
+.way {
+    border: 0.57px solid rgb(0, 0, 0);
+    height: 229px;
+    width: 150px;
+    float: left;
+}
+
+.s-way {
+    border: 0.57px solid rgb(0, 0, 0);
+    height: 150px;
+    width: 312px;
+    float: left;
+}
+
+.end {
+    height: 152px;
+    width: 150px;
+    float: left;
+    background-color:white;
+}
+
+.circle {
+    height: 55px;
+    width: 55px;
+    float: left;
+    margin: 50px 45px 50px 55px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.laal {
+    background-color: red;
+}
+
+.nila {
+    background-color: blue;
+}
+
+.pila {
+    background-color: yellow;
+}
+
+.hara {
+    background-color: green;
+}
+
+.box {
+    float: left;
+    height: 100%;
+    width: 48px;
+    border: 1px solid black;
+}
+
+.s-box {
+    float: left;
+    height: 49px;
+    width: 100%;
+    border: 0px solid black;
+}
+
+.table {
+    border: 0.56px solid black;
+    height: 50px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+.s-table {
+    float: left;
+    border: 0.56px solid black;
+    height: 100%;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.end {
+    text-align: center;
+
+}
+
+h2 {
+    padding-top: 5px;
+}
+.white {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.green {
+    border: 1px solid green;
+}
+
+.red {
+    border: 1px solid red;
+
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.yellow {
+    border: 1px solid rgb(243, 243, 107);
+}
+
+.black {
+    border: 1px solid rgb(0, 0, 0);
+}

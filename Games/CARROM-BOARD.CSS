@@ -1,0 +1,96 @@
+.board {
+    border: 60px solid rgb(99, 26, 26);
+    padding: 3px;
+    height: 835px;
+    border-radius: 15px;
+    margin: 0px 215px 0px 215px;
+}
+
+.hole {
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 45px;
+
+}
+
+.holeright {
+    height: 90px;
+    width: 90px;
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    border-radius: 45px;
+}
+
+.center {
+    height: 583px;
+    margin: 30px 80px;
+}
+
+.hori-area {
+    height: 50px;
+    width: 540px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 33px;
+    border-top: 6px solid black;
+    display: flex;
+
+}
+
+.verti-area {
+    height: 475px;
+    width: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 30px;
+    border-left: 5px solid black;
+
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0px 145px 145px 145px;
+    position: relative;
+}
+
+.l-position {
+    border: 2px solid black;
+    height: 100%;
+    width: 47px;
+    border-radius: 30px;
+    background-color: red;
+
+}
+
+.r-position {
+    border: 2px solid black;
+    height: 100%;
+    width: 47px;
+    border-radius: 25px;
+    background-color: red;
+    margin-left: 441px;
+}
+
+.t-position {
+    border: 2px solid black;
+    height: 47px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: red;
+}
+
+.b-position {
+    border: 2px solid black;
+    margin-top: 373px;
+    height: 47px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: red;
+
+}

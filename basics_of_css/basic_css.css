@@ -1,0 +1,15 @@
+/* .falana {
+    border: 1px solid greenyellow;
+} */
+
+[class="falana"] {
+    border: 1px solid yellow;
+}
+
+[dekhana="faltu"] {
+    border: 5px solid greenyellow;
+}
+
+[dekhana="bekaar"] {
+    border: 5px solid blue;
+}

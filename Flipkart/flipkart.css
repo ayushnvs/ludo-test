@@ -1,0 +1,549 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    background-color: rgb(69, 112, 253);
+    height: 56px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+
+
+}
+
+.logo {
+    margin-left: 124px;
+    margin-right: 124px;
+    height: 56px;
+
+}
+
+.pic {
+    height: 56px;
+    width: 136px;
+    float: left;
+}
+
+img {
+    height: 29.63px;
+    width: 100px;
+    float: right;
+    padding-top: 13px;
+
+}
+.pointer {
+    height: 460px;
+    margin: -2px 100px 0px 700px;
+    width: 250px;
+    box-shadow:45px rgb(158, 146, 146) ;
+    border: 0.5px solid rgb(245, 242, 242);
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+
+   
+}
+.pointer div {
+    border-top: 1px solid rgb(224, 222, 222) ;
+    height: 45px;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 5px 0px 0px 10px;    
+}
+.pointer a {
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow:15px red;
+}
+.information span img {
+    height: 20px;
+    width: 20px;
+    margin-right: 760px !important ;
+   /* float: right !important; */
+  
+}
+.details {
+    color: black;
+
+}
+
+
+.icon {
+    height: 23.67px;
+    width: 30px;
+    margin-left: 0px;
+    font-size: 7px;
+    display: inline-block;
+    border: none;
+    background-color: white;
+    padding: 5px 12px 1.45px 8px;
+}
+
+.fa {
+    font-size: 20px !important;
+    color: blue;
+    margin-right: 5px !important;
+}
+
+.main-search div {
+    display: inline-block;
+}
+.main-search {
+    float: left;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 13px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main-search div {
+    background-color: white;
+}
+
+.main-search input {
+    height: 31px;
+    width: 450px;
+    font-size: 12.56px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-right: 5px;
+    border: none;
+
+}
+input:focus {
+    outline: none;
+}
+
+.option {
+    height: 100%;
+}
+
+.add {
+    font-size: 14.85px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.sub {
+    height: 35px;
+    width: 95px;
+
+
+}
+
+.set {
+    height: 35px;
+    width: 150px;
+
+}
+
+.sum {
+    width: 85px;
+    height: 35px;
+}
+
+.object {
+    margin-top: 56px;
+    height: 39px;
+    border: 1px solid rgb(216, 212, 212);
+
+}
+
+.object span {
+    display: inline-block;
+    height: 19px;
+    padding-top: 6px;
+    padding: 5px;
+    font-size: 12px;
+    padding: 10px 25px 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    color: #000;
+}
+
+.space {
+    margin-left: 60px;
+}
+
+.object span:hover {
+    color: rgb(41, 105, 224);
+}
+
+.dropdown {
+    height: 590px;
+    width: 93%;
+    margin: 0px 50px 0px 50px;
+    border: 1px solid rgb(199, 197, 197);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown div {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+}
+
+.grey {
+    background-color: rgb(250, 247, 247);
+}
+
+.white {
+    background-color: white;
+}
+
+.dropdown p {
+    font-size: 13px;
+    padding-left: 15px;
+    color: #666;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.container {
+    height: 2080px;
+    width: 96.50%;
+    padding: 16px 16px 16px 16px;
+    z-index: 1;
+    background-color:white;
+    box-shadow: 5px gray;
+}
+
+.part1 {
+    height: 600px;
+    width: 38%;
+    display: inline-block;
+    color: white;
+    padding-top: 0px;
+    margin: 0px;
+    position: sticky;
+    top: 64px;
+}
+
+.part2 {
+    height: 2031px;
+    width: 60%;
+    /* border: 2px solid gray; */
+    color: white;
+    float: right;
+}
+
+.picture {
+    color: black;
+    height: 520px;
+    width: 425px;
+    float: right;
+}
+
+.subpic {
+    display: inline-block;
+    height: 87%;
+    width: 12%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.box {
+    height: 69px;
+    width: 100%;
+    margin-bottom: 1px;
+    color: black;
+
+}
+
+.box:hover {
+    border: 2px solid rgb(41, 105, 224);
+}
+
+.button {
+    height: 65px;
+
+}
+
+.button button {
+    height: 55px;
+    width: 48.80%;
+    margin-right: 2px;
+    margin-top: 6px;
+    padding: 11px 8px 10px 8px;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 0px;
+
+}
+
+.button button:nth-child(1) {
+    color: white;
+    background-color: coral;
+}
+
+.button button:nth-child(2) {
+    color: white;
+    background-color: rgb(245, 30, 30);
+}
+
+.mega img:nth-child(1) {
+    height: 57px;
+    width: 49px;
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.pic2 {
+    height: 50px;
+    width: 57px;
+    padding: 15px 10px 2.5px 2px;
+    box-sizing: border-box;
+}
+
+.pic3 {
+    height: 38px;
+    width: 55px;
+    padding: 15px 10px 2.5px 2px;
+    box-sizing: border-box;
+}
+.pic5 {
+    height: 55px;
+    width: 50px;
+    padding: 4px 10px 2.5px 2px;
+    box-sizing: border-box;
+}
+.mainpic {
+    height: 100%;
+    width: 100%;
+
+}
+
+.mainpic {
+    padding-top: 0px;
+}
+.navigation{
+    margin-top: 10px;
+}
+.navigation a {
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    padding-right: 3px;
+    color: #878787;
+}
+
+.navigation a:hover {
+    color: blue;
+}
+
+.decore {
+    max-width: 81px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.body :nth-child(1) {
+    display: block;
+    color: #878787;
+    padding-top: 10px;
+    margin-bottom: -4px;
+}
+
+.body :nth-child(2) {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top:5px;
+    font-size: 18px;
+    display:block;
+}
+.price {
+    display:inline-block;
+    color: black;
+    font-size: 30px;
+    font-weight:500;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 10px 9px 10px 0px;
+}
+.oldprice {
+    color:#878787 ;
+    font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    font-size:17px;
+     vertical-align: text-top; 
+    text-decoration: line-through;
+}
+.off { 
+    color: green;
+    display: inline-block;
+    font-weight: 500;
+    font-size:18px;
+    font-family: Roboto, Arial, sans-serif;
+    vertical-align: text-top; 
+    padding-left:10px ;
+}
+.rating {
+    display:inline-block;
+    background-color: green;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 20px;
+    padding: 1px 5px 1px 7px;
+    line-height: normal;
+}
+.rating img {
+    height: 13px;
+    width: 13px;
+    padding-top: 2px !important;
+    margin: 2px;
+}
+.reviews {
+    display: inline-block;
+    color: #878787;
+    margin: 1px 5px 1px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto, Arial, sans-serif;
+}
+.assured {
+    display: inline-block;
+}
+
+.assured img {
+    height: 18px;
+    width: 65px;
+}
+.title {
+    color: black;
+    font-size: 15.76px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight:bold;
+    margin-top: 2px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .b-red {
+    border: 1px solid red;
+}
+
+.b-green {
+    border: 1px solid green;
+}
+
+.b-blue {
+    border: 1px solid blue;
+}
+
+.b-yellow {
+    border: 1px solid purple;
+} */
