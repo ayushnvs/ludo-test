@@ -1,0 +1,194 @@
+:root {
+    --home-width: 38%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.board {
+    background-color: white;
+    height: 90vh;
+    min-height: 430px;
+    font-size: 1em;
+    position: absolute;
+    aspect-ratio: 1/1;
+    border: 0.5px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.home {
+    width: var(--home-width);
+    aspect-ratio: 1/1;
+    position: absolute;
+}
+
+.circle {
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.circle-1 {
+    top: 0;
+}
+
+.circle-2 {
+    right: 0;
+}
+
+.circle-3 {
+    left: 0;
+    bottom: 0;
+}
+
+.circle-4 {
+    right: 0;
+    bottom: 0;
+}
+
+.w-red-green {
+    top: 0;
+}
+
+.w-blue-yellow {
+    bottom: 0;
+}
+
+.w-red-blue {
+    top: 25%;
+    left: 0;
+}
+
+.w-green-yellow {
+    top: 25%;
+    right: 0;
+}
+
+.way-top,
+.way-bottom {
+    position: absolute;
+    height: var(--home-width);
+    width: calc(100% - var(--home-width) * 2);
+    left: var(--home-width);
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.hr-way-left,
+.hr-way-right {
+    position: absolute;
+    width: var(--home-width);
+    height: calc(100% - var(--home-width) * 2);
+    top: var(--home-width);
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.box-left,
+.box-middle,
+.box-right {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.box-top,
+.box-hr-middle,
+.box-bottom {
+    height: calc(100% / 3);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-middle {
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.box-hr-middle {
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.table-left,
+.table-middle,
+.table-right {
+    width: 100%;
+    height: calc(100% / 6);
+}
+
+.way-top .table-left,
+.way-top .table-middle,
+.way-top .table-right {
+    border-bottom: 0.5px solid black;
+}
+
+.way-bottom .table-left,
+.way-bottom .table-middle,
+.way-bottom .table-right {
+    border-top: 0.5px solid black;
+}
+
+.table-top,
+.table-hr-middle,
+.table-bottom {
+    height: 100%;
+    width: calc(100% / 6);
+}
+
+.hr-way-left .table-top,
+.hr-way-left .table-hr-middle,
+.hr-way-left .table-bottom {
+    border-right: 0.5px solid black;
+}
+
+.hr-way-right .table-top,
+.hr-way-right .table-hr-middle,
+.hr-way-right .table-bottom {
+    border-left: 0.5px solid black;
+}
+
+.stop,
+.direction {
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+}
+
+.laal {
+    background-color: red;
+    left: 0;
+}
+
+.hara {
+    background-color: green;
+    right: 0;
+}
+
+.nila {
+    background-color: blue;
+    bottom: 0;
+}
+
+.pila {
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
+
+.white {
+    background-color: white;
+}
